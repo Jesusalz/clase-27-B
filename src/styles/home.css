@@ -1,0 +1,76 @@
+/* Estilos para la página de inicio */
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Estilo para el título */
+.home-page h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Estilo para el contenido */
+.home-page p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Estilo para los botones */
+.home-page .btn {
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Botón primario */
+.home-page .btn-primary {
+  background-color: #4CAF50;
+  color: white;
+  margin-right: 10px;
+}
+
+.home-page .btn-primary:hover {
+  background-color: #45a049;
+}
+
+/* Botón secundario */
+.home-page .btn-secondary {
+  background-color: #008CBA;
+  color: white;
+}
+
+.home-page .btn-secondary:hover {
+  background-color: #007bb5;
+}
+
+/* Estilo de la sección de contenido adicional */
+.additional-content {
+  width: 80%;
+  max-width: 1200px;
+  margin: 20px 0;
+}
+
+.additional-content h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.additional-content p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+}

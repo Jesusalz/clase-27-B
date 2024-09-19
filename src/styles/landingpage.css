@@ -1,0 +1,57 @@
+/* Estilos para el fondo de la página */
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('/path-to-your-background-image.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Estilo para el título */
+.landing-page h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Estilo para el subtítulo */
+.landing-page p {
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+
+/* Estilos para los botones */
+.landing-page .btn {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.landing-page .btn-primary {
+  background-color: #070577;
+  color: white;
+}
+
+.landing-page .btn-primary:hover {
+  background-color: #3903cc;
+}
+
+
+.landing-page .btn-secondary {
+  background-color: #008CBA;
+  color: white;
+}
+
+.landing-page .btn-secondary:hover {
+  background-color: #007bb5;
+}
