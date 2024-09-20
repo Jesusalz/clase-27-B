@@ -1,5 +1,5 @@
 import React from 'react';
-import { getSpotifyAuthUrl } from '../services';
+import { getSpotifyAuthUrl } from '../../services';
 
 function LoginPage() {
   const handleLogin = () => {

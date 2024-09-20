@@ -1,8 +1,10 @@
+import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import LandingPage from './pages/LandingPage';
 import HomePage from './pages/home/HomePage';
 import LoginPage from './pages/home/LoginPage';
-import SpotifyCallback from './pages/home/SpotifyCallback'; // Nueva ruta de callback
+import RegisterPage from './pages/home/RegisterPage';
+import SpotifyCallback from './pages/home/SpotifyCallback';
 
 function App() {
   return (
@@ -10,7 +12,8 @@ function App() {
       <Route path="/" element={<LandingPage />} />
       <Route path="/home" element={<HomePage />} />
       <Route path="/login" element={<LoginPage />} />
-      <Route path="/callback" element={<SpotifyCallback />} /> {/* Ruta de callback */}
+      <Route path="/register" element={<RegisterPage />} />
+      <Route path="/callback" element={<SpotifyCallback />} />
     </Routes>
   );
 }
