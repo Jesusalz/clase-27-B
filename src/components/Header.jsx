@@ -6,7 +6,7 @@ function Header() {
     <header className="bg-gray-900 p-4">
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/" className="text-white text-2xl font-bold">
-          Uculturemix
+          Clase 27
         </Link>
         <nav>
           <ul className="flex space-x-4">
