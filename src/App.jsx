@@ -4,7 +4,7 @@ import LandingPage from './pages/LandingPage';
 import HomePage from './pages/home/HomePage';
 import LoginPage from './pages/home/LoginPage';
 import RegisterPage from './pages/home/RegisterPage';
-import SpotifyCallback from './pages/home/SpotifyCallback';
+
 
 function App() {
   return (
